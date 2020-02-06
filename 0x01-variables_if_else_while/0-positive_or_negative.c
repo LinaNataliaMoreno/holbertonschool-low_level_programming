@@ -4,6 +4,7 @@
 
 /**
  * main -  Ramdom number, last digit <5, >5, =0.
+ * <studio.h> libreria para printf
  * srand - Pseudo-random number generator with seed
  * rand - Generate random numbers
  * printf - Print a messege - Library : <studio.h>
