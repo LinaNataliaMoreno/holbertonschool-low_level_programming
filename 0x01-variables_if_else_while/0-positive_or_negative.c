@@ -1,14 +1,14 @@
-#include <stdio.h> /*libreria de printf */
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
 /**
-* main -  Ramdom number, last digit <5, >5, =0.
-* srand - Pseudo-random number generator with seed
-* rand - Generate random numbers
-* printf - Print a messege
-* Return: 0
-/* betty style doc for function main goes there */
+ * main -  Ramdom number, last digit <5, >5, =0.
+ * srand - Pseudo-random number generator with seed
+ * rand - Generate random numbers
+ * printf - Print a messege - Library : <studio.h>
+ * Return: 0
+ */
 int main(void)
 {
 	int n;
