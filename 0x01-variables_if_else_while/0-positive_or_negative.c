@@ -1,3 +1,4 @@
+#include <stdio.h> /*libreria de printf */
 #include <stdlib.h>
 #include <time.h>
 
