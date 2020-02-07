@@ -10,7 +10,7 @@ int main(void)
 	letter = 'a';
 	while (letter <= 'z')
 	{
-		putchar(letter);
+		purchar(letter);
 		letter++;
 	}
 	putchar('\n');
