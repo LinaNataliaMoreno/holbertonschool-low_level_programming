@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
 * main - entry function
 * Return: 0 (Success)
@@ -7,8 +8,8 @@ int main(void)
 {
 	char letter;
 
-	for (letter = 'a'; c <= 'z'; c++)
-	putchar(lette);
+	for (letter = 'a'; letter <= 'z'; c++)
+	putchar(letter);
 	putchar('\n');
 	return (0);
 }
