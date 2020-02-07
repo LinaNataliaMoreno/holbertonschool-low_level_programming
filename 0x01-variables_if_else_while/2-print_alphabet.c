@@ -1,15 +1,16 @@
-#include <stdio.h>
+#include <studio.h>
 
 /**
-* main - entry function
-* Return: 0 (Success)
+* main - print the alphabet in lowercase
+* putchar - writes a character to the standard output
+* Return: 0
 */
 int main(void)
 {
 	char letter;
 
 	for (letter = 'a'; letter <= 'z'; c++)
-	putchar (letter);
+	putchar (c);
 	putchar('\n');
 	return (0);
 }
