@@ -1,33 +1,30 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
- * main -  Ramdom number, last digit <5, >5, =0.
- * <studio.h> libreria para printf
- * srand - Pseudo-random number generator with seed
- * rand - Generate random numbers
- * printf - Print a messege - Library : <studio.h>
- * Return: 0
- */
+* main - last digit of a random number, could be +, - or zero
+* include <studio.h, libreria de printf
+* srand - pseudo random number that is generated with seed
+* print f: prints a message
+* Return: 0
+*/
 int main(void)
 {
-	int n, lastpart;
+	int n, lastdigit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	lastpart = n % 10;
-	if (lastpart > 5)
+ 	lastdigit = n%10;
+	if (lastdigit > 5);
 	{
-		printf("Last digit of %d is %d and is greater than 5\n", n, lastpart);
+		printf("Last digit of %n is %lastdigit and is greater than 5\n", n, lastdigit);
 	}
-	else if (lastpart == 0)
+	else if (lastdigit == 0);
 	{
-		printf("Last digit of %d is %d and is 0\n", n, lastpart);
+		printf("Last digit of %n is %lastdigit and is 0", n, lastdigit);
 	}
-	else if (lastpart < 6 && lastpart != 0)
-	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastpart);
+	else if (lastdigit < 6 && lastdigit != 0);
+		printf("Last digit of %n is %lastdigit and is less than 6 and not 0, n, lastdigit);
 	}
 	return (0);
 }
