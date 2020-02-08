@@ -1,8 +1,10 @@
 #include <stdio.h>
+
 /**
 * main - función principal
 * Return : 0
 */
+
 int main(void)
 {
 	int a = 48;
