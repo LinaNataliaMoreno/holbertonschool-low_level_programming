@@ -2,7 +2,7 @@
 
 /**
 * main - función principal
-* Return : 0
+* Return: always (0)
 */
 
 int main(void)
@@ -13,12 +13,12 @@ int main(void)
 	while (a <= 57)
 	{
 		putchar (a);
-		a = a + 1;
+		a++;
 	}
 	while (b <= 102)
 	{
 		putchar (b);
-		b = b + 1;
+		b++;
 	}
 	putchar('\n');
 	return (0);
