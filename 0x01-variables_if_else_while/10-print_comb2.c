@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
-* main - while
-* putchar - prints all the numbers between 00 to 99
-* Return: 0
-*/
+ * main - while
+ * putchar - prints all the numbers between 00 to 99
+ * Return: 0
+ */
 int main(void)
 {
 	int i, m;
