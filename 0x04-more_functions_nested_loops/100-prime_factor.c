@@ -27,4 +27,5 @@ int main(void)
 		primefactor++;
 	}
 	printf("%d\n", keeptheprime);
+	return(0);
 }
