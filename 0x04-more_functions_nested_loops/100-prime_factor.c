@@ -5,7 +5,7 @@
  *
  * return: the largest prime factor of the number
  */
-void main(void)
+int: main(void)
 {
 	int long number;
 	int primefactor, keeptheprime;
