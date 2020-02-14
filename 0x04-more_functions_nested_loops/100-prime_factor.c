@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - to find the prime factors of a number
+ * main - to find the prime factors of a number.
  *
- * return: the largest prime factor of the number
+ * Return: the largest prime factor of the number.
  */
 int main(void)
 {
