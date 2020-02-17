@@ -7,4 +7,9 @@
 - How to use strings and how to manipulate them
 - Scope of variables
 
-You do not need to learn about pointers to functions, pointers to pointers, multidimensional arrays, arrays of structures, malloc and free - yet.
+- You do not need to learn about:
+- pointers to functions, 
+- pointers to pointers, 
+- multidimensional arrays, 
+- arrays of structures, 
+- malloc and free - yet.
