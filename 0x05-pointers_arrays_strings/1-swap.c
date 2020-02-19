@@ -6,8 +6,9 @@
 * @b: value number 2
 * Return: Always 0.
 */
+
 void swap_int(int *a, int *b)
-{	
+{
 	int temp;
 
 	temp = *a;
