@@ -4,7 +4,7 @@
 *_puts - prints a string, followed by a new line, to stdout.
 * The standard library provides a similar function: puts. Run man puts
 * @str: keep an string
-* Return: the string
+* Return: void
 */
 
 void _puts(char *str)
