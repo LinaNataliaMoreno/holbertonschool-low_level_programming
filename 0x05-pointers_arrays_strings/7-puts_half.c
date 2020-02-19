@@ -6,9 +6,9 @@
 * Return: 0
 */
 
-voif puts_half(char *str)
+void puts_half(char *str)
 {
-	int i, length, half
+	int i, length, half;
 
 	i = 0;
 	length = 0;
@@ -20,7 +20,7 @@ voif puts_half(char *str)
 	}
 	if (length % 2 == 0)
 	{
-		half = length /2;
+		half = length / 2;
 	}
 	else
 	{
